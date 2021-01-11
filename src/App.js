@@ -1,9 +1,11 @@
 import TodoList from "./TodoList/TodoList";
+import NewTodoList from "./NewTodoList/NewTodoList";
 
-function App() {
+function App(){
   return (
     <div className="App">
-      <TodoList></TodoList>
+      {/*<TodoList></TodoList>*/ }
+      <NewTodoList></NewTodoList>
     </div>
   );
 }
